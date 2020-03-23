@@ -31,7 +31,7 @@ regions_keyboard = [[InlineKeyboardButton("Dati Italia", callback_data='rItaly')
                     [InlineKeyboardButton("Molise", callback_data='rMolise'), InlineKeyboardButton("Piemonte", callback_data='rPiemonte')],
                     [InlineKeyboardButton("Puglia", callback_data='rPuglia'), InlineKeyboardButton("Sardegna", callback_data='rSardegna')],
                     [InlineKeyboardButton("Sicilia", callback_data='rSicilia'), InlineKeyboardButton("Toscana", callback_data='rToscana')],
-                    [InlineKeyboardButton("Trentino-Alto Adige", callback_data='rTrentino-Alto Adige'), InlineKeyboardButton("Umbria", callback_data='rUmbria')],
+                    [InlineKeyboardButton("Trentino-Alto Adige", callback_data='rTrentino Alto Adige'), InlineKeyboardButton("Umbria", callback_data='rUmbria')],
                     [InlineKeyboardButton("P.A. Trento", callback_data='rP.A. Trento'), InlineKeyboardButton("P.A. Bolzano", callback_data='rP.A. Bolzano')],
                     [InlineKeyboardButton("Valle d'Aosta", callback_data='rValle d\'Aosta'), InlineKeyboardButton("Veneto", callback_data='rVeneto')]]
 
