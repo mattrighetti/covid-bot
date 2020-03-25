@@ -77,7 +77,7 @@ def cov_data(update, context):
     tamponi = source['tamponi']
     
     date_string = last_update
-    format = "%Y-%m-%d %H:%M:%S"
+    format = "%Y-%m-%dT%H:%M:%S"
     date = datetime.strptime(date_string, format)
     last_update = date.strftime("%d %b %Y %H:%M")
         
