@@ -1,2 +1,4 @@
 token.txt
 Dockerfile
+.vscode
+*/node_modules
