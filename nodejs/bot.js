@@ -1,7 +1,7 @@
 const Telegraf = require('telegraf')
 const { Markup } = require('telegraf')
 const axios = require('axios')
-const extra = require('telegraf/extra')
+const polling = require('telegraf/')
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 
@@ -117,4 +117,4 @@ bot.action(/back/, (ctx) => {
 updateItalyData()
 updateRegionsData()
 
-bot.launch()
+bot.startPolling(1)
